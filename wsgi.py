@@ -34,7 +34,7 @@ while 1:
 	
     if len(matches) == 0:
        print ("Yeah, Result Not Declared. Going to sleep") #will not send anything
-       time.sleep(10) #sleep for 2 hours
+       time.sleep(1000) #sleep for 2 hours
     
     else:
        selected = re.findall('18200613', html_content)#18200613
