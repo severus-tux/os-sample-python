@@ -33,7 +33,7 @@ while 1:
     matches = re.findall('C-', html_content) # Because Computer Science Starts as C-BLR-0006
 	
     if len(matches) == 0:
-       print ("Yeah, Result Not Declared. Going to sleep") #will not send anything
+       print ("Yeah, Result Not Declared. Going to sleep at" + time.ctime()) #will not send anything
        time.sleep(1000) #sleep for 2 hours
     
     else:
